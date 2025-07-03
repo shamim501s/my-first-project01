@@ -1,0 +1,9 @@
+.list-itams {
+    background-color: bisque;
+
+    color: rgb(46, 124, 192);
+}
+
+.list-itams ul {
+    list-style-type: circle;
+}

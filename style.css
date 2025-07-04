@@ -1,3 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: brown;
+}
+
 .list-itams {
     background-color: bisque;
 
@@ -6,4 +21,38 @@
 
 .list-itams ul {
     list-style-type: circle;
+}
+
+.form-box {
+
+   
+    border-radius: 15px;
+    width: 250px;
+    height: 45%;
+    padding: 10px;
+    background-color: antiquewhite;
+     backdrop-filter:blur(5px) ;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    font-weight: 800;
+    border-radius: 15px;
+    background-color: aqua;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    background-color: green;
+    color: #fff;
 }
